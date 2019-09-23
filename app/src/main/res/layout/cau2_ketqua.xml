@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Kết quả là:"
+        android:layout_marginTop="50dp"
+        android:textAlignment="center"/>
+    <TextView
+        android:id="@+id/edtResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textColor="@color/colorPrimaryDark"
+        />
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Quay về Giải PT"
+        android:layout_marginTop="50dp"
+        android:layout_marginVertical="100dp"/>
+</LinearLayout>
